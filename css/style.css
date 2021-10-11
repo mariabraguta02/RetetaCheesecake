@@ -1,0 +1,73 @@
+aside {
+
+    height: 40px;
+    width: 200vh;
+    position: fixed;
+    background-color: black;
+    font-size: 20px;
+    
+}
+
+aside a{
+    color:whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Karantina', cursive;
+    padding: 18px;
+}
+
+
+h1 {
+	padding-top: 70px;
+	color:#C71585; 
+	text-align:center;
+	text-decoration:overline; 
+	font-family: Arial
+}
+
+h2 {
+     color:#DB7093; 
+     text-align:center;
+     font-family: century;"
+}
+
+#preparare {
+
+	font-size:20px;
+	text-align: center;
+	padding-top: 70px;"
+}
+table {
+	
+	style="color:#000000; 
+	text-align: center; 
+	width: 1000px
+}
+
+
+table th {
+ 
+ color: darkred;
+ background-color: hotpink;
+
+}
+
+table td {
+
+	background-color: lightpink;
+}
+
+body {
+
+	background-color: lavender;
+}
+
+ol {
+
+	background-color: lightpink;
+	font-family: cursive;
+	font-kerning: 20px;
+	text-align: justify;
+}
+
