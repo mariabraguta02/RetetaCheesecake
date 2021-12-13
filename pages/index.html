@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <title> Acasă </title>
+</head>
+
+<body> 
+
+  <aside> 
+        <a href="index.html"> Acasă </a>
+        <a href="partea2.html"> Preparare</a>
+        <a href="partea3.html"> Rețete </a> 
+        <a href="index.php"> Contacte  </a> 
+        <a id="btnlogare" href="logare.php"> Sign in </a>
+        <a id="btnsignup" href="signup.php"> Sign up </a>
+ 
+    </aside>
+<style> 
+   body{
+    background-color: #ffe4e1;
+      }
+
+   #btnlogare{
+    color: black;
+    margin-left: 630px;
+   }
+
+   #btnsignup {
+    color: black;
+    padding: 1px;
+   }
+</style>
+
+
+	<h1 style="padding-top: 55px;"> Cheesecake  </h1> 
+	<h2> Cea mai simplă rețetă </h2>
+	<p> Majoritatea oamenilor preferă să mănânce ceva gustos, însă de cele mai multe ori obosim să stăm și să gătim ziua întreagă. La această problemă există o mare alternativă și anume rețetele cu o pregătire simplă, rapidă, dar și gustoasă. Această este o bună scăpare atunci când avem o sărbătoare. Astfel, astăzi vă propunem să gătim cel mai delicios <b> Cheesecake. </b>   </p>
+
+	<div class="SlideCheesecake">
+
+  <div class="Photoslide">
+    <div class="Photonumber">1 / 3</div>
+    <img src="../imagines/zmeura.jpeg" style="width:100%">
+    <div class="Phototext"> Cheesecake zmeură </div>
+  </div>
+
+  <div class="Photoslide">
+    <div class="Photonumber">2 / 3</div>
+    <img src="../imagines/capsuna.jpeg" style="width:100%">
+    <div class="Phototext">Cheesecake căpșună</div>
+  </div>
+
+  <div class="Photoslide">
+    <div class="Photonumber"> 3 / 3 </div>
+    <img src="../imagines/visina.jpeg" style="width:100%">
+    <div class="Phototext">Cheesecake vișină </div>
+  </div>
+
+  
+  <a class="prev" onclick="Sageata(-1)">&#10094;</a>
+  <a class="next" onclick="Sageata(1)">&#10095;</a>
+</div>
+<br>
+
+
+
+	<div> <table border="1" >
+
+       <tr>
+       	<th> Timp pregătire </th>
+       	<th> Categorie </th>
+       	<th> Bucătărie </th>
+       	<th> Servire </th>
+       	<th> Calorii </th>
+       </tr>
+
+       <tr>
+       	<td> 40 minute </td>
+       	<td> Desert </td>
+       	<td> Americană </td>
+       	<td> 16 porții </td>
+       	<td> 476 kcal </td>
+       </tr>
+   </table>
+</div>
+	
+	<p> <b> Ingrediente: </b> <br> 
+		<p> <i> Pentru blat </i> </p>
+	<ul type="square">
+		<li> 400 g biscuiți  </li>
+			<li> 150 g unt topit </li>
+		</ul>
+		</p>
+		<i> Pentru cremă </i>
+<ul type="square">
+        <li> 600 gr cremă brânză </li>
+        <li> 500 ml frișcă </li>
+        <li> 150 gr zahăr pudră </li>
+        <li> 100 ml apă </li>
+        <li> 100 ml lapte </li>
+        <li> 20 g gelatină </li>
+        <li> Pachet vanilie</li> 
+    </ul>
+
+
+     <i> Pentru jeleu </i>
+    <ul type="square">
+    <li> 300 g căpșuni</li>
+     <li> 100 ml apă</li>
+      <li> 3 linguri zahăr</li>
+       <li> 10 g gelatină </li>
+     </ul>
+
+
+<button id="butonascundere" onclick="Ascunde()">Click</button>
+
+<div id="textascuns">
+  Dacă a-ți ajuns până aici, vă recomand să accesați din menu PREPARARE!
+</div>
+
+
+<script src="../js/myscripts.js"></script> 
+
+
+</script>
+</body>
+</html> 
