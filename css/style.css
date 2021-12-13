@@ -1,0 +1,190 @@
+
+aside {
+  
+    height: 35px;
+    width: 500vh;
+    position: fixed;
+    background-color: #DB7093 ;
+    font-size: 20px;
+    
+}
+
+aside a{
+    padding: 30px;
+    color:whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Karantina', cursive;
+
+}
+
+#menu-btn {
+	color:  greenyellow;
+	position: absolute;
+	padding: 5px;
+
+
+}
+
+
+h1 {
+  
+	color:#C71585; 
+	text-align:center;
+	text-decoration:overline; 
+	font-family: Arial
+}
+
+h2 {
+     color:#DB7093; 
+     text-align:center;
+     font-family: century;
+}
+
+button {
+	margin: 0 auto;
+
+
+}
+
+
+#preparare {
+
+	font-size:20px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+table {
+	
+	color:#000000; 
+	text-align: center; 
+	width: 1000px
+}
+
+
+table th {
+ 
+ color: darkred;
+ background-color: hotpink;
+
+}
+
+table td {
+
+	background-color: lightpink;
+}
+
+body {
+
+	background-color: lavender;
+}
+
+ol {
+
+	background-color: lightpink;
+	font-family: cursive;
+	font-kerning: 20px;
+	text-align: justify;
+}
+
+.text {
+	color:#EE82EE; 
+	text-align:center; 
+	font-size:25px; 
+	font-family:fantasy; 
+	padding-top: 70px;
+}
+
+#textascuns {
+
+	font-family: sans-serif;
+	color: red;
+	text-align: center;
+	padding: 5px;
+
+}
+
+#buttonascundere {
+	height: 50px;
+	width: 70px;
+	background-color: lightgreen;
+	border-radius: 40%;
+	margin-left: 47% ;
+
+}
+
+
+#minion {
+
+	padding-left: 600px;
+}
+
+.SlideCheesecake {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+.Photoslide {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.Phototext {
+  color: darkred;
+  text-shadow: 3px 3px 5px whitesmoke;
+  bottom: 1px;
+  font-size: 25px;
+  padding: 8px 12px 20px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.Photonumber {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.login-form {
+
+  width: 360px;
+  background: #f1f1f1;
+  height:  580px;
+  
+
+  
+}
+
+#btnlogare {
+  color: black;
+}
+
